@@ -21,24 +21,7 @@ Dans le contexte *Real Estate*, un **conseiller (Advisor)** peut entrer les info
 La fonctionnalité demandée est d’implémenter une **command Symfony** qui stocke un nouveau bien en prenant les arguments suivants :
 
 - l’ID de la Property  
-- l’ID de l’Advisor qui entre les informations de la Property  
-
-## Structure des Dossiers
-
-RealEstate/
-  Discovering/
-    Property/
-      Adapters/
-        Controller/
-          Symfony/
-            Command/
-      Entities/
-        Property/
-      UseCases/
-        Gateways/
-          Property/
-        Property/
-          AddPropertyForAdvisor/
+- l’ID de l’Advisor qui entre les informations de la Property
 
 ## Technique
 
