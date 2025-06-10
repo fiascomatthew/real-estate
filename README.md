@@ -24,3 +24,39 @@ La fonctionnalité demandée est d’implémenter une **command Symfony** qui st
 - l’ID de l’Advisor qui entre les informations de la Property  
 
 ## Structure des Dossiers
+
+RealEstate/
+  Discovering/
+    Property/
+      Adapters/
+        Controller/
+          Symfony/
+            Command/
+      Entities/
+        Property/
+      UseCases/
+        Gateways/
+          Property/
+        Property/
+          AddPropertyForAdvisor/
+
+## Technique
+
+Le code a été conçu avec une **approche Clean Architecture** et selon les concepts liés au **DDD** (*Domain-Driven Design*), le but étant d’isoler et de protéger les règles métier.
+
+> Il faut prendre en compte qu’il s’agit de code pour du **PHP 7.2**.  
+> Les dépendances ainsi que certains fichiers sont **manquants volontairement** pour ne pas alourdir la code review.
+
+## Restitution
+
+Vous exposerez vos remarques sur la PR pendant **1h** à nos lead tech.  
+Ce sera une base de discussion pour échanger plus en profondeur sur les problématiques rencontrées.
+
+## Objectifs
+
+Mettre en évidence :
+
+- les soucis d’implémentation dans la PR ne respectant pas les grands principes de cette architecture,
+- les erreurs ou améliorations possibles de conception,
+- les erreurs liées aux normes de code,
+- tout ce qui vous paraît anormal ou que vous auriez fait différemment.
